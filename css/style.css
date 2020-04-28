@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway|Work+Sans&display=swap');
+/* estilos de Home : Index.html */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.fondo {
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+    background: url("../img/emilia-home.jpg") no-repeat right top fixed;
+    background-size: contain;
+}
+
+main nav {
+    margin: 15px 45px;
+}
+
+main nav a {
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+    color: rgb(148, 147, 147);
+    font-size: 16px;
+}
+
+main nav ul {
+    padding-left: 0px;
+    margin: 0px;
+}
+
+li {
+    line-height: 37px;
+}
+
+li a img {
+    width: 20px;
+}
+
+main ul {
+    list-style-type: none;
+}
+
+h1.tituloP {
+    font-family: 'Work Sans', sans-serif;
+    width: 180px;
+    color: #3b3a3a;
+    font-weight: 700;
+    margin-left: 40px;
+    letter-spacing: 5px;
+    font-size: 36px;
+    margin-top: 120px;
+}
+
+h2.tituloS {
+    width: 100%;
+    font-size: 72PX;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin-top: 70px;
+    margin-left: 10px;
+    font-family: "raleway";
+
+}
+
+/* Estilos de la Opción MUSICA */
+
+.musica{
+    background-image: url('../img/emilia-music-top.jpg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100% 6%;
+}
+
+#titulo{
+    margin-left: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    margin-top: 60px;
+    position: relative;
+    color: rgb(22,22,22);
+}
+
+#subtitulo{
+    margin-left: 10px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(22,22,22);
+}
+
+#directLink{
+    margin-left: 10px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+#linksInternos{
+    margin-left: 60px;
+    margin-bottom: 70px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(66, 66, 66);
+    font-size: 15px;
+}
+
+#playList{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#goTop{
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: grey
+}
+
+#info{
+    margin-top: 20px;
+    margin-left: 10px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 30px;
+}
+
+
+/* Estilos de la opción ABOUT */
+
+.imgabout {
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+    background: url("../img/emilia-about.jpg") no-repeat right top fixed;
+    background-size: contain;
+}
+.nav-about {
+    font-family: 'Open Sans', sans-serif;
+    margin: 30px 5px 0 5px;
+}
+.nav-about ul li {
+    display: inline;
+}
+.nav-about nav {
+    margin: 30px 45px 30px 0px;
+}
+
+.nav-about ul {
+    display: block;
+    text-align: right;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.redes-about {
+    text-align: right;
+    margin-top: 10px;
+}
+.h1-about {
+    font-family: 'Work Sans', sans-serif;
+    width: 300px;
+    color: #3b3a3a;
+    font-weight: bolder;
+    margin-left: 10px;
+    letter-spacing: -2px;
+    font-size: 70px;
+    margin-top: 90px;
+}
+.inf-about {
+    width: 700px;
+    font-family: Raleway;
+    color: #49A391;
+    margin: 30px 0px 30px 40px;
+    font-weight: 300;
+}
+.informe {
+    font-size: 0.8em;
+    font-weight: 400;
+}
+
+/* Estilos de la opción Contacto */
+
+.contacto {
+    font-family:"raleway","arial";
+    font-size: 50px;
+    font-weight: bold;
+}
+.contacto1 {
+    font-family:"raleway","arial";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+article.contact1 {
+    width: 700px;
+    font-family: 'Open Sans', sans-serif;
+    color: #49A391;
+    margin: 30px 0px 30px 0px;
+    font-weight: 300;
+}
+
+article.contactStyle1 h3 {
+    width: 700px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(92, 88, 88);
+    font-weight: 300;
+}
+
+article.contactStyle1 b {
+    color: rgb(14, 13, 13);
+    font-weight: bold;
+}
+
+h3 a {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(92, 88, 88);
+}
+
+abbr {
+    text-decoration: none;
+}
